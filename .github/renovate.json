@@ -1,7 +1,7 @@
 {
   "extends": ["config:best-practices"],
   "platformAutomerge": true,
-  "recreateClosed": true,
+  "recreateWhen": "always",
   "packageRules": [
     {
       "matchPackagePatterns": ["*"],
