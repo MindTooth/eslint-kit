@@ -1,12 +1,5 @@
 {
-  "configMigration": true,
-  "extends": [
-    "config:base",
-    "docker:pinDigests",
-    "helpers:pinGitHubActionDigests",
-    ":pinDevDependencies"
-  ],
-  "masterIssue": true,
+  "extends": ["config:best-practices"],
   "platformAutomerge": true,
   "recreateClosed": true,
   "packageRules": [
