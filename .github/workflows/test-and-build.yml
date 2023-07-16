@@ -8,16 +8,16 @@ jobs:
   test-and-build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3
+      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3.0.0
 
-      - uses: actions/setup-node@f1f314fca9dfce2769ece7d933488f076716723e # v1
+      - uses: actions/setup-node@f1f314fca9dfce2769ece7d933488f076716723e # v1.0.0
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
 
       - name: Use build cache
         id: cache
-        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8 # v3
+        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8 # v3.0.0
         with:
           path: dist
           key: ${{ hashFiles('./yarn.lock', './src/**', './rollup.config.js', './jest.config.js') }}
