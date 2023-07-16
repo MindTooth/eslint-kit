@@ -8,7 +8,7 @@ jobs:
   update-release-draft:
     runs-on: ubuntu-latest
     steps:
-      - uses: release-drafter/release-drafter@65c5fb495d1e69aa8c08a3317bc44ff8aabe9772 # v5.0.0
+      - uses: release-drafter/release-drafter@234c54319f675ec6360d7f892fd62399bac71c0a # v5.0.0
         with:
           disable-autolabeler: true
         env:
