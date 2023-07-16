@@ -8,7 +8,7 @@
   "recreateWhen": "always",
   "packageRules": [
     {
-      "matchPackagePatterns": ["eslint-plugins"],
+      "matchPackagePrefixes": ["eslint-plugin"],
       "groupName": "ESLint Plugins"
     }
   ]
