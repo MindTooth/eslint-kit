@@ -40,7 +40,7 @@ jobs:
           yarn build
 
       - name: Set version from release
-        uses: reedyuk/npm-version@9b08a57f534ead28c49f7b57665fe9f6d048ff74 # 1.0.1
+        uses: reedyuk/npm-version@805800379b213c9193ede2c7a7f14a1a99e4d10b # 1.2.1
         with:
           version: ${{ steps.version.outputs.full }}
 
