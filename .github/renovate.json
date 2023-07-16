@@ -10,10 +10,6 @@
     {
       "matchPackagePrefixes": ["eslint-plugins"],
       "groupName": "ESLint Plugins"
-    },
-    {
-      "matchPackagePrefixes": ["@typescript-eslint"],
-      "groupName": "TypeScript Preset"
     }
   ]
 }
