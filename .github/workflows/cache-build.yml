@@ -13,7 +13,7 @@ jobs:
 
       - name: Check build cache
         id: cache
-        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8 # v3.0.0
+        uses: actions/cache@88522ab9f39a2ea568f7027eddc7d8d8bc9d59c8 # v3.3.1
         with:
           path: dist
           key: ${{ hashFiles('./yarn.lock', './src/**', './rollup.config.js', './jest.config.js') }}
