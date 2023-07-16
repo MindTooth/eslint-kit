@@ -18,7 +18,7 @@ jobs:
 
       - name: Parse version from tag
         id: version
-        uses: release-kit/semver@dc798abe05f8b45884bb63ff9d77a72885e38cb3 # v1.0.0
+        uses: release-kit/semver@dc798abe05f8b45884bb63ff9d77a72885e38cb3 # v1.1.0
 
       - uses: actions/setup-node@f1f314fca9dfce2769ece7d933488f076716723e # v1.0.0
         with:
