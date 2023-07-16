@@ -5,5 +5,15 @@
     "schedule:automergeEarlyMondays"
   ],
   "platformAutomerge": true,
-  "recreateWhen": "always"
+  "recreateWhen": "always",
+  "packageRules": [
+    {
+      "matchPackagePrefixes": ["eslint-plugins"],
+      "groupName": "ESLint Plugins"
+    },
+    {
+      "matchPackagePrefixes": ["@typescript-eslint"],
+      "groupName": "TypeScript Preset"
+    }
+  ]
 }
