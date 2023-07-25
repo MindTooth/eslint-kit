@@ -1,13 +1,9 @@
 {
   "extends": [
-    "config:recommended",
-    ":pinDevDependencies",
-    "group:linters",
-    "schedule:automergeEarlyMondays"
-  ],
-  "packageRules": [
-    {
-      "extends": [":automergeAll", "packages:linters"]
-    }
+    "config:best-practices",
+    ":label(dependencies)",
+    ":timezone(Europe/Berlin)",
+    "schedule:automergeEarlyMondays",
+    ":automergeStableNonMajor"
   ]
 }
