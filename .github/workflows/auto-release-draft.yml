@@ -8,11 +8,11 @@ jobs:
   auto-release:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9 # v3
 
       - name: Get Last Draft Release
         id: last_release
-        uses: InsonusK/get-latest-release@v1.0.1
+        uses: InsonusK/get-latest-release@f8686e4d0b2be19a66677ad5fa2f22c38ef43b62 # v1.0.1
         with:
           myToken: ${{ github.token }}
           exclude_types: "release|prerelease"
@@ -20,7 +20,7 @@ jobs:
 
       - name: Publish Draft Release
         if: steps.last_release.outputs.id
-        uses: StuYarrow/publish-release@v1.1.2
+        uses: StuYarrow/publish-release@01f2a1365bacd77bad861873a7fdf274ab49eefd # v1.1.2
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}
         with:
