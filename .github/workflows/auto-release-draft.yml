@@ -12,7 +12,7 @@ jobs:
 
       - name: Get Last Draft Release
         id: last_release
-        uses: InsonusK/get-latest-release@f8686e4d0b2be19a66677ad5fa2f22c38ef43b62 # v1.0.1
+        uses: InsonusK/get-latest-release@7a9ff16c8c6b7ead5d71c0f1cc61f2703170eade # v1.1.0
         with:
           myToken: ${{ github.token }}
           exclude_types: "release|prerelease"
