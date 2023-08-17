@@ -20,7 +20,7 @@ jobs:
 
       - name: Setup Node.js when no cache found
         if: steps.cache.outputs.cache-hit != 'true'
-        uses: actions/setup-node@f1f314fca9dfce2769ece7d933488f076716723e # v1
+        uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d # v3
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
