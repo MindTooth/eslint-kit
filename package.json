@@ -45,7 +45,7 @@
     "eslint-plugin-unicorn": "47.0.0",
     "eslint-plugin-vue": "9.15.1",
     "semver": "^7.3.8",
-    "vue-eslint-parser": "9.1.1"
+    "vue-eslint-parser": "9.3.1"
   },
   "devDependencies": {
     "@types/eslint": "8.4.2",
