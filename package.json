@@ -53,7 +53,7 @@
     "@types/prettier": "2.7.3",
     "@types/react": "18.2.20",
     "@types/semver": "7.5.0",
-    "effector": "22.3.0",
+    "effector": "22.8.6",
     "esbuild": "0.14.39",
     "eslint": "8.44.0",
     "jest": "28.1.3",
